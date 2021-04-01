@@ -1,0 +1,146 @@
+body{
+    font-size: 16px;
+}
+.row{
+    margin: 0!important;
+}
+
+.midnightblue{ color: #2c3e50;}
+
+#divDocker{
+    padding:10px;
+}
+
+/* ============================= */
+/* Reglas de Estilo para el Menú */
+/* ============================= */
+nav > img{ 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn .fas, .btn .far
+{
+    color: white;
+}
+.menu{    
+    background-color: #2e304d;
+    color: white;       
+    padding-left: 0;
+}
+.menu h4{
+    font-family: 'Nexa-Bold';
+    text-align: center;
+}
+.menu hr{ background-color: #6a6c80; }
+.menu>center>img{ padding: 15px 0 10px 0; }
+.menu .nav-link{ 
+    color: rgba(255,255,255,0.6);
+    font-size: 14px; 
+}
+.menu .nav-link>.fas, .menu .nav-link>.far{
+    padding-right: 10px;
+}
+
+.menu .nav-link:hover{
+    background-color: rgba(0, 191, 165,0.1);
+    color:#00bfa5 !important;    
+}
+
+/* ============================= */
+/* Reglas de Estilo para el Main */
+/* ============================= */
+
+main{
+    height: 100vh;
+    background-color: #fafbff;
+}
+hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);    
+    
+}
+
+.btnAgregar > .fas, .btnAgregar > .far{
+    padding-right: 5px;
+}
+
+.btnAgregar{
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.capa{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 3px #dfe1e8;        
+    min-height: 80vh;    
+    padding: 0 20px 0 20px;
+    
+    
+}
+
+.centrar{    
+    float: none ;
+    margin: 0 auto ;
+}
+
+.formBuscar{
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.formCaptura{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.formCaptura>.form-group{
+    margin-bottom: 2% !important;
+}
+.filtro-busqueda{
+    background-color: #d1d8e0;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.capa .form-inline .custom-select, .capa .form-inline .input-group{
+    width: 80%;
+}
+
+
+.tituloModulo{
+    padding: 15px 0 0 20px;    
+}
+.tituloModulo .far, .tituloModulo .fas{ padding-right: 10px;}
+
+
+@media (max-width: 600px){
+    #divDocker{
+        padding:1px;
+    }
+    .capa {
+        padding: 0;
+        box-shadow: none;
+    }
+    .navbar-nav{
+        margin-left:30px;
+    }
+
+    .menu .nav-link{ 
+        color: rgba(255,255,255,1);
+        font-size: 1em;
+    }
+
+    .formBuscar{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .formBuscar button {
+        margin-top: 10px;
+    }
+}
